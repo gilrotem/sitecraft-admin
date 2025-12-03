@@ -1,22 +1,16 @@
-# Welcome to your Lovable project
+# SiteCraft CMS - Admin Panel
 
-## Project info
+## Project Info
 
-**URL**: https://lovable.dev/projects/bb7f6763-9a89-4c86-a911-b7556a1dcdc6
+**Production URL**: https://sitecraft-admin.onrender.com  
+**Repository**: https://github.com/gilrotem/sitecraft-admin  
+**Backend**: Supabase (Your Instance)
 
-## How can I edit this code?
+## Development Workflow
 
-There are several ways of editing your application.
+**This project is under full control - no external integrations.**
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/bb7f6763-9a89-4c86-a911-b7556a1dcdc6) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Local Development
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -64,10 +58,14 @@ This project is built with:
 
 Simply open [Lovable](https://lovable.dev/projects/bb7f6763-9a89-4c86-a911-b7556a1dcdc6) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
+## Deployment
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Automatic deployment to Render:**
+- Push to `main` branch triggers auto-deploy
+- Environment variables configured in Render Dashboard
+- Live at: https://sitecraft-admin.onrender.com
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Custom Domain
+
+Configure custom domain in Render Dashboard under Settings → Custom Domains.
